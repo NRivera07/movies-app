@@ -12,7 +12,7 @@ const movieApi = axios.create({
   },
   params: {
     language: "es-ES",
-    api_key: process.env.THE_MOVIE_API_KEY,
+    api_key: process.env.EXPO_PUBLIC_THE_MOVIE_API_KEY,
   },
 });
 
